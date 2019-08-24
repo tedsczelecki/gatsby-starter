@@ -1,0 +1,6 @@
+@import "../../styles/mixins";
+
+.rp-about-page {
+  @include container;
+  @include content-section;
+}

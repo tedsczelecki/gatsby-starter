@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import '../styles/normalize';
+@import '../styles/variables';
+
+.rp-main-layout {
+  display: grid;
+  grid-template-rows: 60px 1fr 60px;
+  min-height: 100vh;
+  overflow: hidden;
+
+  & * {
+    font-family: 'Open Sans', sans-serif;
+  }
+}

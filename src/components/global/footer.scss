@@ -1,0 +1,14 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.rp-footer {
+  @include container;
+  background: $brand-primary;
+  color: #FFF;
+  align-self: center;
+  height: 100%;
+
+  &__inner {
+    padding: $gutter-3;
+  }
+}
